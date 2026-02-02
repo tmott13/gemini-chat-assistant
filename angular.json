@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "gemini-chat-assistant:build:production"
+              "buildTarget": "gemini-chat-assistant:build:production"
             },
             "development": {
-              "browserTarget": "gemini-chat-assistant:build:development"
+              "buildTarget": "gemini-chat-assistant:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "gemini-chat-assistant:build"
+            "buildTarget": "gemini-chat-assistant:build"
           }
         },
         "test": {
