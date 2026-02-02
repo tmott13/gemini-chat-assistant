@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  geminiApiKey: 'AIzaSyA5zlNX502GMewdVJ3bxLJXkO0SEt6CD3w'  // ← paste from https://aistudio.google.com/app/apikey
+  geminiApiKey: ''  // ← paste from https://aistudio.google.com/app/apikey
+
 };
 
 /*
